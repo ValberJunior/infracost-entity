@@ -7,7 +7,7 @@ metadata:
   annotations:
     github.com/project-slug: ValberJunior/infracost-entity
     backstage.io/techdocs-ref: dir:..
-    infracost/project: infracost-entity
+    infracost/project: cluster-infracost-entity
 spec:
   type: ec2
   lifecycle: experimental
