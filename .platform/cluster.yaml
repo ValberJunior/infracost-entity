@@ -1,0 +1,14 @@
+apiVersion: veecode.backstage.io/v1alpha1
+kind: Cluster
+metadata:
+  name: "cluster-infracost-entity"
+  environment:
+    cluster_type: ec2
+  annotations:
+    github.com/project-slug: ValberJunior/infracost-entity
+    backstage.io/techdocs-ref: dir:..
+    infracost/project: infracost-entity
+spec:
+  type: ec2
+  lifecycle: experimental
+  owner: "group:default/admin"
